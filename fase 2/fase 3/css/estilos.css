@@ -1,0 +1,35 @@
+header{
+    font-style: oblique;
+    padding: 20px;
+    height: 10%;
+    background-color: rgb(253, 226, 50);
+    color:whitesmoke;
+}
+nav{
+    height: 5%;
+    background-color: rgb(254, 198, 194);
+}
+section{
+    width: 80%;
+    float: left;
+    width: 70%;
+    background-color: rgb(162, 159, 125);
+    min-height: 80%;
+}
+aside{
+    width: 20%;
+    float: left;
+    max-width: 30%;
+    background-color: rgb(70, 141, 233);
+    min-height: 80%;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(29, 164, 121);
+    height: 5%;
+}
+.contenedor ::after{
+    content: "";
+    display:block;
+    clear: both;
+}
